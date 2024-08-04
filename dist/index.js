@@ -1,0 +1,21 @@
+"use strict";
+let age = 8;
+const firstName = "Luan";
+const isValid = true;
+let evitar = 5;
+evitar = "oi";
+evitar = true;
+const ids = [1, 2, 3, 5, 4];
+const names = ["Luan", "Michele", "Luana"];
+const person = [2, "Luan"];
+const people = [[1, "Luam"], [2, "uuu"]];
+const productId = 1;
+var Direction;
+(function (Direction) {
+    Direction[Direction["Up"] = 1] = "Up";
+    Direction[Direction["Down"] = 2] = "Down";
+})(Direction || (Direction = {}));
+const direction = Direction.Up;
+console.log(direction);
+const productName = "Boné";
+let itemId = productName;
